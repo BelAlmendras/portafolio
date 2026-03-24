@@ -16,7 +16,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="bg-slate-900 text-slate-100 py-20 px-6">
+    <section className=" text-slate-100 py-20 px-6">
 
       <div className="max-w-5xl mx-auto">
 

@@ -7,14 +7,16 @@ function Hero() {
         {/* Texto */}
         <div className="text-center md:text-left">
 
-          <h1 className="text-5xl font-bold text-gray-900">
-            Belén Almendros
-          </h1>
-
-          <p className="mt-4 text-lg text-gray-600 max-w-xl">
-            Desarrolladora Fullstack
-          </p>
-
+<h1 className="logo-text text-2xl md:text-4xl font-bold 
+  bg-gradient-to-r from-pink-400 via-fuchsia-500 to-rose-400
+  bg-clip-text text-transparent inline-block
+  animate-[gradient-x_4s_ease_infinite]">
+  
+  &lt;BelenAlmendros /&gt;
+</h1>
+<p class="font-body text-muted mt-2 text-lg">
+  Desarrolladora Fullstack
+</p>
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
 
             <button className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
