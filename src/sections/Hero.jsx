@@ -1,16 +1,16 @@
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center px-6">
+    <section id="home" className="min-h-screen flex items-center px-6">
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* Texto */}
         <div className="text-center md:text-left">
 
-<h1 className="logo-text text-2xl md:text-4xl font-bold 
-  bg-gradient-to-r from-pink-400 via-fuchsia-500 to-rose-400
+<h1 className="logo-text text-3xl md:text-4xl font-bold tracking-wide
+  bg-linear-to-r from-pink-400 via-fuchsia-500 to-rose-400
   bg-clip-text text-transparent inline-block
-  animate-[gradient-x_4s_ease_infinite]">
+  animate-[gradient-x_4s_ease-in-out_infinite]">
   
   &lt;BelenAlmendros /&gt;
 </h1>

@@ -5,18 +5,21 @@ import AboutMe from "../../sections/AboutMe"
 import Skills from "../../sections/Skills"
 import Projects from "../../sections/Projects"
 import Contact from "../../sections/Contact"
+import ScrollToTop from "../../components/ui/ScrollToTop"
 
 function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <AboutMe/>
-      <Skills />
+  <>
+  <Navbar />
+        <Hero />
+        <ScrollToTop />
+        <AboutMe />
+        <Skills />
         <Projects />
         <Contact />
-      <Footer />
-    </>
+        <Footer />
+</>
+        
   )
 }
 
