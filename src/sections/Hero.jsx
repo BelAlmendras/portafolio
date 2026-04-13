@@ -89,7 +89,7 @@ function Hero() {
           ></div>
 
           <img
-            src="./public/perfil.jpg"
+            src="./public/perfil.png"
             alt="Belen Almendros"
             className="relative w-64 h-64 md:w-72 md:h-72 
             object-cover rounded-full 
