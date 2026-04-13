@@ -1,6 +1,7 @@
 @import "tailwindcss";
 html, body, #root {
   height: 100%;
+  
 }
 
 :root {
@@ -20,8 +21,7 @@ html, body, #root {
   --accent: #FBCFE8;
   --highlight: #C084FC;
 
-  --font-title: "Space Grotesk", sans-serif;
-  --font-body: "Inter", sans-serif;
+
 }
 
 body {
@@ -166,4 +166,40 @@ html {
   50% {
     background-position: right center;
   }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out forwards;
 }

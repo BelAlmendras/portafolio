@@ -13,9 +13,9 @@ function Home() {
   <Navbar />
         <Hero />
         <ScrollToTop />
+        <Projects />
         <AboutMe />
         <Skills />
-        <Projects />
         <Contact />
         <Footer />
 </>
