@@ -60,7 +60,7 @@ function Hero() {
           >
             
             <a
-              href="#"
+              href="https://github.com/BelAlmendras"
               className="flex items-center justify-center gap-2 
               px-5 py-3 rounded-xl 
               bg-gradient-to-r from-purple-600 to-fuchsia-600 
@@ -72,7 +72,7 @@ function Hero() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/belen-almendros-dev/"
               className="flex items-center justify-center gap-2 
               px-5 py-3 rounded-xl 
               bg-slate-800/60 backdrop-blur-md 
