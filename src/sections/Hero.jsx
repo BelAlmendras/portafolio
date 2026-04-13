@@ -1,4 +1,5 @@
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import perfil from "/public/perfil.png";
 function Hero() {
   return (
     <section
@@ -89,7 +90,7 @@ function Hero() {
           ></div>
 
           <img
-            src="./public/perfil.png"
+            src= {perfil}
             alt="Belen Almendros"
             className="relative w-64 h-64 md:w-72 md:h-72 
             object-cover rounded-full 
