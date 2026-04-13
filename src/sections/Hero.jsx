@@ -48,8 +48,7 @@ function Hero() {
             md:animate-[fadeUp_0.6s_ease-out_0.4s_forwards]
             motion-reduce:animate-none"
           >
-            Especializada en frontend con React, pero con experiencia en todo el stack. 
-            Apasionada por crear experiencias digitales atractivas y funcionales.
+          Desarrolladora Frontend con especialización en React, experiencia fullstack y una fuerte orientación al diseño de experiencias digitales
           </p>
 
           {/* BOTONES */}
