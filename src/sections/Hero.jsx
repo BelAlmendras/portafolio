@@ -7,20 +7,19 @@ function Hero() {
       id="home"
       className="min-h-screen flex items-center px-4 md:px-6 relative overflow-hidden"
     >
-      {/* Fondo glow */}
       <div className="absolute inset-0 -z-10">
         <div
           className="absolute top-10 md:top-20 left-1/2 -translate-x-1/2 
           w-[300px] h-[300px] md:w-[500px] md:h-[500px] 
           bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 
           opacity-20 blur-2xl md:blur-3xl rounded-full
-          md:animate-pulse"
+          animate-[float_6s_ease-in-out_infinite]
+          motion-reduce:animate-none"
         ></div>
       </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
         
-        {/* TEXTO */}
         <div className="text-center md:text-left space-y-5">
           
           <h1
