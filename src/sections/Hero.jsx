@@ -20,7 +20,7 @@ function Hero() {
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
         
-        <div className="text-center md:text-left space-y-5">
+        <div className="text-center md:text-left space-y-7 ">
           
           <h1
             className="logo-text text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide
@@ -38,7 +38,7 @@ function Hero() {
             md:animate-[fadeUp_0.6s_ease-out_0.2s_forwards]
             motion-reduce:animate-none"
           >
-            Desarrolladora Fullstack
+            Desarrolladora Frontend
           </p>
 
           <p
