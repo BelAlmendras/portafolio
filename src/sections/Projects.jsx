@@ -2,7 +2,7 @@ const Projects = () => {
   const projects = [
     {
       name: "Escuelita Libre",
-      image: "../public/escuelita-libre.png",
+      image: "/escuelita-libre.png",
       description:
         "Desarrollé la interfaz de un sitio educativo enfocada en una experiencia accesible y atractiva para nuevos apoderados y estudiantes. Implementado con React, Tailwind y Vite, prioricé un diseño limpio, intuitivo y orientado a la conversión.",
       github: "https://github.com/BelAlmendras/escuelita-libre-ui",
@@ -10,7 +10,7 @@ const Projects = () => {
     },
     {
       name: "Joyeria Hoseki",
-      image: "../public/hoseki.jpg",
+      image: "/hoseki.jpg",
       description:
         "Proyecto fullstack desarrollado en equipo bajo metodología ágil (Scrum). Participé en la construcción del frontend con React y en la integración con backend en Spring Boot y base de datos PostgreSQL, colaborando en la implementación de un flujo completo de e-commerce.",
       github: "https://github.com/BelAlmendras/SA-HA/",
@@ -18,7 +18,7 @@ const Projects = () => {
     },
     {
       name: "¿Quién es ese Pokémon?",
-      image: "../public/quien-es-ese-pokemon.png",
+      image: "/quien-es-ese-pokemon.png",
       description:
         "Minijuego inspirado en “¿Quién es ese Pokémon?” que consume la API de Pokémon. Implementé la ocultación y revelado de sprites mediante interacción del usuario, junto con efectos visuales para generar una experiencia lúdica y dinámica",
       github: "https://github.com/BelAlmendras/quien-es-ese-pokemon/",
